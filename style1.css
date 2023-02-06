@@ -4,7 +4,12 @@ img {
 
 .center-box{
     display: flex;
-    justify-content: center;
+    justify-content:center;
+}
+
+.right-box{
+    background: url(lion\ for\ pier.jpg);
+    background-size: cover;
 }
 
 .titolo{
@@ -15,8 +20,32 @@ img {
 }
 body{
     background-color: antiquewhite;
+    font-family:sans-serif;
 }
 .s{
     display: flex;
     justify-content: space-between;
+}
+#video-back{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 0;
+    filter: blur(2px);
+    min-width: 100%;
+    min-height: 100%;
+
+    
+}
+
+.primo-piano{
+    position: relative;
+    z-index: 1;
+}
+
+.intro{
+    display: flex;
+    justify-content: left;
+
+
 }
