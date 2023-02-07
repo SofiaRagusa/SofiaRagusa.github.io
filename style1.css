@@ -1,26 +1,33 @@
-img {
-    border-radius: 47%;
-}
+
 
 .center-box{
     display: flex;
     justify-content:center;
 }
 
-.right-box{
-    background: url(lion\ for\ pier.jpg);
+.image-back{
+    height: 1000px;
+    background: linear-gradient(0deg, rgba(255, 251, 251, 0), rgba(0, 0, 0, 0.678) ),
+    url(lion\ for\ pier.jpg);
     background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+    display: flex; width: 100%; align-items: center;
 }
 
+.image-back-content{
+    width: 100%;
+}
 .titolo{
     color: goldenrod;
-    text-align: center;
-    font-size: 3rem;
+    text-align:left;
+    font-size: 5rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
     background-color: antiquewhite;
-    font-family:sans-serif;
+    font-family: 'Unbounded', cursive;
+
 }
 .s{
     display: flex;
@@ -28,12 +35,13 @@ body{
 }
 #video-back{
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     z-index: 0;
     filter: blur(2px);
-    min-width: 100%;
     min-height: 100%;
+    min-width: 100%;
+    display: flex; align-items: center;
 
     
 }
@@ -46,6 +54,5 @@ body{
 .intro{
     display: flex;
     justify-content: left;
-
-
+    font-size: 1.1rem;
 }
