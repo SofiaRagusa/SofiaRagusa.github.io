@@ -15,9 +15,8 @@
     display: flex; width: 100%; align-items: center;
 }
 
-.image-back-content{
-    width: 100%;
-}
+
+
 .titolo{
     color: goldenrod;
     text-align:left;
@@ -30,9 +29,12 @@ body{
 
 }
 .s{
+    border: 1px solid red;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
+
 #video-back{
     position: absolute;
     top: 0;
@@ -55,4 +57,8 @@ body{
     display: flex;
     justify-content: left;
     font-size: 1.1rem;
+}
+
+li{
+    line-height: 18px
 }
